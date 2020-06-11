@@ -21,7 +21,6 @@
     "lint:prettier": "prettier \"{**/*,*}.{js,json,md,yml,css}\" --list-different",
     "lint:js": "eslint --cache src test",
     "lint": "npm-run-all -l -p \"lint:**\"",
-    "prepare": "npm run build",
     "release": "standard-version",
     "security": "npm audit",
     "test:only": "cross-env NODE_ENV=test jest",
